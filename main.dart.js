@@ -57136,7 +57136,8 @@ case 2:p=b.a
 o=J.ap(p)
 q.b=A.cb(o.h(p,"tokenKey"))
 q.c=A.cb(o.h(p,"UserIdKey"))
-q.d=A.tP(o.h(p,"acceptedVendor"))
+p=A.tP(o.h(p,"acceptedVendor"))
+q.d=p===!0
 q.T()
 return A.C(null,r)}})
 return A.D($async$FU,r)},
